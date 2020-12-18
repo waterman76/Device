@@ -118,6 +118,10 @@ open class Device {
                 return .screen5_5Inch
             case 812:
                 return .screen5_8Inch
+            case 844:
+                return .screen6_1Inch
+            case 926:
+                return .screen6_7Inch
             case 896:
                 switch version() {
                 case .iPhoneXS_Max:
